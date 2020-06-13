@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+main {
+    height: calc(100vh - 56px);
+        overflow: hidden;
+}
+.my-messages {
+    overflow-x: auto;
+}
+
+.message-box ul.list-unstyled.d-flex {
+    overflow-y: scroll;
+    height: calc(100vh - 56px - 67px - 120px);
+}
+
+.select-group {
+    cursor: pointer;
+}
+.select-group:hover h3 {
+    color: #aaa;
+}
+.dropdown-menu.dropdown-menu-right.show {
+    position: absolute!important;
+    top: 40px!important;
+}
